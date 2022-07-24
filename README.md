@@ -1,4 +1,4 @@
-curl --location --request POST 'http://localhost:8080/forgerock/v1/json/processor/process' \
+curl --location --request POST 'http://localhost:8081/forgerock/v1/json/processor/process' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 "config": {
